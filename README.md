@@ -1,6 +1,18 @@
 # sony-duelist-composer 🎼
 
-Lightning-fast duet line generator for human–AI counterpoint.  
+<p align="center">
+  <img src="duel_flow.png" alt="Duel Flow: Human ↔ AI across 8 bars with final score">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3.9%2B-blue" alt="Python 3.9+">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="MIT License">
+  <img src="https://img.shields.io/badge/tests-passing-brightgreen" alt="Tests Passing">
+</p>
+/p>
+
+Lightning-fast duet line generator for human–AI counterpoint.
+
 Simulates an 8-bar “duel” between a Human and an AI using 5 musical moves.
 
 ## What this is
