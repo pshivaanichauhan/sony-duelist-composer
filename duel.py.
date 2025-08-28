@@ -1,0 +1,24 @@
+import random
+
+# possible moves
+moves = ["Consonant", "Dissonant", "Modulate", "Rhythm Shift", "Silence"]
+
+def duel(num_bars=8):
+    total_score = 0
+    for bar in range(1, num_bars + 1):
+        human = random.choice(moves)
+        ai = random.choice(moves)
+        score = 0
+        if human == "Consonant" and ai == "Dissonant":
+            score = 2
+        elif human == "Dissonant" and ai == "Dissonant":
+            score = -1
+        else:
+            score = 1
+        total_score += score
+        print(f"Bar {bar}: Human={human}, AI={ai}, Score={score}")
+    print(f"\nFinal Score: {total_score}")
+
+# run a sample duel
+if __name__ == "__main__":
+    duel()
