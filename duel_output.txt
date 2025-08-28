@@ -1,0 +1,9 @@
+Bar 1: Human=Consonant, AI=Dissonant, Score=2
+Bar 2: Human=Rhythm Shift, AI=Consonant, Score=2
+Bar 3: Human=Silence, AI=Modulate, Score=1
+Bar 4: Human=Consonant, AI=Consonant, Score=3
+Bar 5: Human=Dissonant, AI=Consonant, Score=2
+Bar 6: Human=Rhythm Shift, AI=Silence, Score=1
+Bar 7: Human=Modulate, AI=Dissonant, Score=1
+Bar 8: Human=Consonant, AI=Consonant, Score=3
+Final Score: 15
